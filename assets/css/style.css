@@ -22,12 +22,14 @@ font-family: 'Italic', sans-serif;
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   max-width: 430px;
   /* max-height: 932px; */
   font-size: 16px;
   scroll-behavior: smooth;
-  overflow: hidden; /* * klappt nur richtig mit html und body */
+  overflow: hidden;
+  /* * klappt nur richtig mit html und body */
 }
 
 /* ***********+ Schriften + Schriftfarbe
@@ -131,7 +133,8 @@ main .section_bildKaffeeVersetzt > article:nth-of-type(2) > article {
   padding-top: 1vh;
   display: flex;
   justify-content: space-between;
-  width: 95%; /* * damit Einkaufswagen Bild unter ack von Pack ist */
+  width: 95%;
+  /* * damit Einkaufswagen Bild unter ack von Pack ist */
 }
 main .section_bildKaffeeVersetzt > article:nth-of-type(2) > article h3 {
   font-size: 1.125rem;
@@ -166,7 +169,8 @@ main .section_bildKaffeeGerade > article:nth-of-type(2) > article {
   padding-top: 1vh;
   display: flex;
   justify-content: space-between;
-  width: 82%; /* * damit Einkaufswagen Bild unter ack von Pack ist */
+  width: 82%;
+  /* * damit Einkaufswagen Bild unter ack von Pack ist */
 }
 main .section_bildKaffeeGerade > article:nth-of-type(2) > article h3 {
   font-size: 0.8125rem;
@@ -185,5 +189,36 @@ main > p {
 /* *************+ Footer ************** */
 /* *************+ Footer ************** */
 /* *************+ Footer ************** */
+footer > section {
+  background-color: red;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  /* * klappt nur, wenn oben bei section > gesetzt ist */
+}
+footer > section section {
+  background-color: orange;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10.5px;
+}
+footer > section section article:nth-of-type(2) {
+  background-color: greenyellow;
+  padding: 10px;
+}
+footer > section section article:nth-of-type(2) h4 {
+  background-color: aqua;
+  font-size: 0.625rem;
+  width: 72px;
+  line-height: 14px;
+}
+footer > section section article:nth-of-type(2) p {
+  background-color: violet;
+  font-size: 0.875rem;
+  text-align: right;
+  margin-top: -14px; /* * damit Preis höher hin zu Text h4 kommt */
+}
 
 /*# sourceMappingURL=style.css.map */
