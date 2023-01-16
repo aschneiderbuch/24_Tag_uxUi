@@ -130,11 +130,13 @@ header {
 /* *************+ Main ************** */
 
 main {
+    padding-left: 20px;
     section {
         background-color: red;
         display: flex;
         column-gap: 20px;
         align-items: center;
+        
         
     }
 
@@ -167,10 +169,11 @@ main {
                 padding-top: 1vh;
                 display: flex;
                 justify-content: space-between;
-                width: 82%;        /* * damit Einkaufswagen Bild unter ack von Pack ist */
+                width: 95%;        /* * damit Einkaufswagen Bild unter ack von Pack ist */
 
                 h3{
                     font-size: 1.125rem;
+                    color: #6CA89C;
                 }
             }
         }
@@ -222,6 +225,9 @@ main {
 
                 h3{
                     font-size: 0.8125rem;
+                    color:     #6CA89C
+                    ;
+
                     
                 }
             }
@@ -232,5 +238,14 @@ main {
 /* ************** main p tag ************** */
 
 main>p{
-    
+    background-color: orange;
+    padding-top: 30px;
+    font-size: 1.13rem ;
+    font-weight: 700;
+    padding-bottom: 30px;
 }
+
+
+/* *************+ Footer ************** */
+/* *************+ Footer ************** */
+/* *************+ Footer ************** */
