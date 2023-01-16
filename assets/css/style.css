@@ -62,20 +62,30 @@ header > section:nth-of-type(1) article {
   margin-top: -30px;
   /* * damit Button weiter oben ist */
 }
+header > section:nth-of-type(1) article img {
+  background-color: yellow;
+  float: right; /* * damit hängt das BurgerMenüIcon links */
+}
 header > section:nth-of-type(1) article nav {
   background-color: green;
   display: none;
+  justify-content: space-around;
   /* * wird von : none zu : flex, mit none ist das Menü versteckt */
   float: left;
-  width: 50vw;
-  height: 50vh;
-  flex-wrap: wrap;
+  width: 80vw;
+  /* flex-wrap: wrap; */
 }
 header > section:nth-of-type(1) article nav a {
   text-decoration: none;
-  font-size: 3.125Rem;
+  font-size: 1.525Rem;
+  /* 3.125rem */
   line-height: 67px;
   color: #FFFFFF;
+  margin-top: -60px;
+}
+
+.js_toggle_button_burgerMenue___display {
+  display: flex;
 }
 
 /* *************+ Header Untertitel H1  ************** */
@@ -218,7 +228,8 @@ footer > section section article:nth-of-type(2) p {
   background-color: violet;
   font-size: 0.875rem;
   text-align: right;
-  margin-top: -14px; /* * damit Preis höher hin zu Text h4 kommt */
+  margin-top: -14px;
+  /* * damit Preis höher hin zu Text h4 kommt */
 }
 
 /*# sourceMappingURL=style.css.map */
