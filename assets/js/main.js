@@ -23,17 +23,28 @@ button___burgerMenue.addEventListener("click", toggleBurgerMenue);
 
 function toggleBurgerMenue() {
 
-    burgerMenue___display.classList.toggle("js_toggle_button_burgerMenue___display");
+/* 
+Option 0 - geht - klappt nur einblenden
+
+    burgerMenue___display.style.display = ("flex");
+ */
+
+  /* 
+  Option 1 -  geht nicht
+
+burgerMenue___display.classList.toggle("js_toggle_button_burgerMenue___display");
+*/
 
     /*
-    klappt top
-    
+    Option 2 -  geht -  klappt top
+    */
     if (burgerMenue___display.style.display === "none") {
         burgerMenue___display.style.display = "flex";
     } else {
         burgerMenue___display.style.display = "none";
     }
-     */
+     
+    console.log("Funktion toogleBurgerMenue wird aufgerufen");
 
 
 }

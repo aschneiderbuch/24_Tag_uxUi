@@ -1,4 +1,6 @@
 @charset "UTF-8";
+/* ************** style classe für js  Start ****** */
+/* ************** style classe für js  Ende ****** */
 /* *test */
 /* ********** font family einbinden ************* */
 @font-face {
@@ -49,7 +51,6 @@ p {
 /* *************+ Header ************** */
 /* *************+ Header ************** */
 header > section:nth-of-type(1) {
-  background-color: red;
   display: flex;
   justify-content: space-between;
   padding-top: 40px;
@@ -57,17 +58,14 @@ header > section:nth-of-type(1) {
   padding-right: 20px;
 }
 header > section:nth-of-type(1) article {
-  background-color: blue;
   text-align: right;
   margin-top: -30px;
   /* * damit Button weiter oben ist */
 }
 header > section:nth-of-type(1) article img {
-  background-color: yellow;
   float: right; /* * damit hängt das BurgerMenüIcon links */
 }
 header > section:nth-of-type(1) article nav {
-  background-color: green;
   display: none;
   justify-content: space-around;
   /* * wird von : none zu : flex, mit none ist das Menü versteckt */
@@ -80,17 +78,14 @@ header > section:nth-of-type(1) article nav a {
   font-size: 1.525Rem;
   /* 3.125rem */
   line-height: 67px;
-  color: #FFFFFF;
+  color: #6CA89C;
   margin-top: -60px;
-}
-
-.js_toggle_button_burgerMenue___display {
-  display: flex;
+  border-radius: 10vw;
+  box-shadow: 0px 10px 10px rgba(108, 168, 156, 0.3450980392);
 }
 
 /* *************+ Header Untertitel H1  ************** */
 .headerTextH1 {
-  background-color: orange;
   padding-left: 20px;
   padding-top: 2vh;
   padding-bottom: 2vh;
@@ -112,13 +107,11 @@ main {
   /* ************** main section_bild Kaffee Gerade ************** */
 }
 main section {
-  background-color: red;
   display: flex;
   column-gap: 20px;
   align-items: center;
 }
 main .section_bildKaffeeVersetzt {
-  background-color: rgb(102, 102, 175);
   width: 253px;
   height: 460px;
   display: flex;
@@ -128,7 +121,6 @@ main .section_bildKaffeeVersetzt {
   box-shadow: 0px 5px 3px rgb(132, 80, 80);
 }
 main .section_bildKaffeeVersetzt > article:nth-of-type(2) {
-  background-color: greenyellow;
   padding: 20px 20px 0px 20px;
 }
 main .section_bildKaffeeVersetzt > article:nth-of-type(2) h2 {
@@ -139,7 +131,6 @@ main .section_bildKaffeeVersetzt > article:nth-of-type(2) p {
   font-size: 0.625rem;
 }
 main .section_bildKaffeeVersetzt > article:nth-of-type(2) > article {
-  background-color: yellow;
   padding-top: 1vh;
   display: flex;
   justify-content: space-between;
@@ -151,7 +142,6 @@ main .section_bildKaffeeVersetzt > article:nth-of-type(2) > article h3 {
   color: #6CA89C;
 }
 main .section_bildKaffeeGerade {
-  background-color: rgb(102, 102, 175);
   width: 184px;
   height: 334px;
   display: flex;
@@ -164,7 +154,6 @@ main .section_bildKaffeeGerade > article:nth-of-type(1) img {
   width: 185px;
 }
 main .section_bildKaffeeGerade > article:nth-of-type(2) {
-  background-color: greenyellow;
   padding: 10px 15px 0px 15px;
 }
 main .section_bildKaffeeGerade > article:nth-of-type(2) h2 {
@@ -175,7 +164,6 @@ main .section_bildKaffeeGerade > article:nth-of-type(2) p {
   font-size: 0.44rem;
 }
 main .section_bildKaffeeGerade > article:nth-of-type(2) > article {
-  background-color: yellow;
   padding-top: 1vh;
   display: flex;
   justify-content: space-between;
@@ -189,7 +177,6 @@ main .section_bildKaffeeGerade > article:nth-of-type(2) > article h3 {
 
 /* ************** main p tag ************** */
 main > p {
-  background-color: orange;
   padding-top: 30px;
   font-size: 1.13rem;
   font-weight: 700;
@@ -200,7 +187,6 @@ main > p {
 /* *************+ Footer ************** */
 /* *************+ Footer ************** */
 footer > section {
-  background-color: red;
   display: flex;
   justify-content: space-between;
   column-gap: 20px;
@@ -209,27 +195,27 @@ footer > section {
   /* * klappt nur, wenn oben bei section > gesetzt ist */
 }
 footer > section section {
-  background-color: orange;
   display: flex;
   flex-direction: column;
   border-radius: 10.5px;
 }
 footer > section section article:nth-of-type(2) {
-  background-color: greenyellow;
   padding: 10px;
 }
 footer > section section article:nth-of-type(2) h4 {
-  background-color: aqua;
   font-size: 0.625rem;
   width: 72px;
   line-height: 14px;
 }
 footer > section section article:nth-of-type(2) p {
-  background-color: violet;
   font-size: 0.875rem;
   text-align: right;
   margin-top: -14px;
   /* * damit Preis höher hin zu Text h4 kommt */
+}
+
+.js_toggle_button_burgerMenue___display {
+  display: flex;
 }
 
 /*# sourceMappingURL=style.css.map */

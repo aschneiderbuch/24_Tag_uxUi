@@ -1,3 +1,10 @@
+
+/* ************** style classe für js  Start ****** */
+
+/* ************** style classe für js  Ende ****** */
+
+
+
 /* *test */
 
 /* ********** font family einbinden ************* */
@@ -66,7 +73,6 @@ p {
 header {
 
     >section:nth-of-type(1) {
-        background-color: red;
         display: flex;
         justify-content: space-between;
         padding-top: 40px;
@@ -74,18 +80,15 @@ header {
         padding-right: 20px;
 
         article {
-            background-color: blue;
             text-align: right;
             margin-top: -30px;
             /* * damit Button weiter oben ist */
 
                 img{
-                    background-color: yellow;
                     float: right;           /* * damit hängt das BurgerMenüIcon links */
                 }
 
             nav {
-                background-color: green;
 
                 display: none;
                 justify-content: space-around;
@@ -100,24 +103,24 @@ header {
                     font-size: 1.525Rem;
                     /* 3.125rem */
                     line-height: 67px;
-                    color: #FFFFFF;
+                    color: #6CA89C;
                     margin-top: -60px;
+                    
+                    border-radius: 10vw;
+                
+                    box-shadow: 0px 10px 10px #6ca89c58;
                 }
             }
         }
     }
 }
 
-.js_toggle_button_burgerMenue___display{
-    display:flex;
-}
 
 
 
 
 /* *************+ Header Untertitel H1  ************** */
 .headerTextH1 {
-    background-color: orange;
     padding-left: 20px;
     padding-top: 2vh;
     padding-bottom: 2vh;
@@ -145,7 +148,6 @@ main {
     padding-left: 20px;
 
     section {
-        background-color: red;
         display: flex;
         column-gap: 20px;
         align-items: center;
@@ -154,7 +156,6 @@ main {
     }
 
     .section_bildKaffeeVersetzt {
-        background-color: rgb(102, 102, 175);
         width: 253px;
         height: 460px;
         display: flex;
@@ -164,7 +165,6 @@ main {
         box-shadow: 0px 5px 3px rgb(132, 80, 80);
 
         >article:nth-of-type(2) {
-            background-color: greenyellow;
 
             padding: 20px 20px 0px 20px;
 
@@ -178,7 +178,6 @@ main {
             }
 
             >article {
-                background-color: yellow;
                 padding-top: 1vh;
                 display: flex;
                 justify-content: space-between;
@@ -201,7 +200,6 @@ main {
 
     /* ************** main section_bild Kaffee Gerade ************** */
     .section_bildKaffeeGerade {
-        background-color: rgb(102, 102, 175);
         width: 184px;
         height: 334px;
         display: flex;
@@ -217,7 +215,6 @@ main {
         }
 
         >article:nth-of-type(2) {
-            background-color: greenyellow;
 
             padding: 10px 15px 0px 15px;
 
@@ -231,7 +228,6 @@ main {
             }
 
             >article {
-                background-color: yellow;
                 padding-top: 1vh;
                 display: flex;
                 justify-content: space-between;
@@ -253,7 +249,6 @@ main {
 /* ************** main p tag ************** */
 
 main>p {
-    background-color: orange;
     padding-top: 30px;
     font-size: 1.13rem;
     font-weight: 700;
@@ -268,7 +263,6 @@ main>p {
 footer {
     >section {
 
-        background-color: red;
         display: flex;
         justify-content: space-between;
         column-gap: 20px;
@@ -278,25 +272,21 @@ footer {
         /* * klappt nur, wenn oben bei section > gesetzt ist */
 
         section {
-            background-color: orange;
             display: flex;
             flex-direction: column;
 
             border-radius: 10.5px;
 
             article:nth-of-type(2) {
-                background-color: greenyellow;
                 padding: 10px;
 
                 h4 {
-                    background-color: aqua;
                     font-size: 0.625rem;
                     width: 72px;
                     line-height: 14px;
                 }
 
                 p {
-                    background-color: violet;
                     font-size: 0.875rem;
                     text-align: right;
                     margin-top: -14px;
@@ -306,3 +296,11 @@ footer {
         }
     }
 }
+
+
+
+
+.js_toggle_button_burgerMenue___display{
+    display:flex;
+}
+
