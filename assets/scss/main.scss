@@ -17,6 +17,107 @@
 font-family: 'Normal', sans-serif;
 font-family: 'Italic', sans-serif;
 
-
 */
 
+/* ****************  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    max-width: 430px;
+    max-height: 932px;
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+
+/* ***********+ Schriften + Schriftfarbe
+vergeben pauschal */
+h1,h2,h3,h4,h5, p{
+    font-family: 'Normal', sans-serif;
+    color: #283331;
+}
+
+
+
+
+/* ******** Variable ********** */
+
+
+
+
+
+/* *************+ Header ************** */
+/* *************+ Header ************** */
+/* *************+ Header ************** */
+
+header {
+
+    >section:nth-of-type(1) {
+        background-color: red;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+
+        article {
+            background-color: blue;
+            text-align: right;
+            margin-top: -30px;      /* * damit Button weiter oben ist */
+
+
+            nav {
+                background-color: green;
+
+                display: none;
+                /* * wird von : none zu : flex, mit none ist das Menü versteckt */
+                float: left;
+                width: 50vw;
+                height: 50vh;
+                flex-wrap: wrap;
+
+                a {
+                    text-decoration: none;
+                    font-size: 3.125Rem;
+                    line-height: 67px;
+                    color: #FFFFFF;
+
+                }
+            }
+        }
+    }
+}
+
+
+
+
+/* *************+ Header Untertitel H1  ************** */
+.headerTextH1 {
+    background-color: orange;
+    padding-left: 20px;
+    padding-top: 2vh;
+    padding-bottom: 2vh;;
+    h1 {
+        font-size:2.25Rem ;
+        line-height: 48px;
+
+
+    }
+    p{
+        line-height: 27px;
+        font-size: 1.25rem;
+
+    }
+}
+
+/* *************+ Main ************** */
+/* *************+ Main ************** */
+/* *************+ Main ************** */
+
+main section {
+    
+}
