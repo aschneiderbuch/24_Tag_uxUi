@@ -1,1 +1,22 @@
 /* *test */
+
+/* ********** font family einbinden ************* */
+
+@font-face {
+    font-family: Normal;
+    src: url("../fonts/Playfair_Display_1/PlayfairDisplay-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: Italic;
+    src: url("../fonts/Playfair_Display_1/PlayfairDisplay-Italic-VariableFont_wght.ttf");
+}
+
+/*   **** font family zum einfügen ***
+
+font-family: 'Normal', sans-serif;
+font-family: 'Italic', sans-serif;
+
+
+*/
+
