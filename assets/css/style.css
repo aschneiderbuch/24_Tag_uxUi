@@ -22,11 +22,12 @@ font-family: 'Italic', sans-serif;
   box-sizing: border-box;
 }
 
-html {
+html, body {
   max-width: 430px;
-  max-height: 932px;
+  /* max-height: 932px; */
   font-size: 16px;
   scroll-behavior: smooth;
+  overflow: hidden; /* * klappt nur richtig mit html und body */
 }
 
 /* ***********+ Schriften + Schriftfarbe
