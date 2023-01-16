@@ -132,6 +132,8 @@ main {
         background-color: red;
         display: flex;
         column-gap: 20px;
+        align-items: center;
+        
     }
 
     .section_bildKaffeeVersetzt {
@@ -164,10 +166,65 @@ main {
                 display: flex;
                 justify-content: space-between;
                 width: 82%;        /* * damit Einkaufswagen Bild unter ack von Pack ist */
+
+                h3{
+                    font-size: 1.125rem;
+                }
             }
         }
 
 
+
+
     }
 
-}
+
+
+    /* ************** main section_bild Kaffee Gerade ************** */
+    .section_bildKaffeeGerade {
+        background-color: rgb(102, 102, 175);
+        width: 184px;
+        height: 334px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 15px;
+        /* * Bild hat schon im Original oben einen Radius */
+        box-shadow: 0px 5px 3px rgb(132, 80, 80);
+
+        >article:nth-of-type(1) {
+            img{
+                width: 185px;
+            }
+        }
+
+        >article:nth-of-type(2) {
+            background-color: greenyellow;
+
+            padding: 10px 15px 0px 15px;
+
+            h2 {
+                font-size: 0.8125rem;
+                line-height: 24px;
+            }
+
+            p {
+                font-size: 0.44rem;
+            }
+
+            >article {
+                background-color: yellow;
+                padding-top: 1vh;
+                display: flex;
+                justify-content: space-between;
+                width: 82%;        /* * damit Einkaufswagen Bild unter ack von Pack ist */
+
+                h3{
+                    font-size: 0.8125rem;
+                    
+                }
+            }
+    }
+
+}}
+
+/* ************** main p tag ************** */
